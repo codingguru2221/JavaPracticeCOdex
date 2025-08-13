@@ -45,6 +45,46 @@ class Dog extends Animal {
     }
 }
 
+// 3) Polymorphism
+// Compile-time Polymorphism (Method Overloading)
+class Calculator {
+    int add(int a, int b) { return a + b; }
+    double add(double a, double b) { return a + b; }
+}
+
+//Runtime Polymorphism (Method Overriding)
+class Animal1 { void sound() { System.out.println("Some sound"); } }
+class Cat extends Animal1 {
+    @Override
+    void sound() { System.out.println("Meow"); }
+}
+
+// 4) Abstraction
+
+abstract class Shape {
+    abstract double area();  // Abstract method (no implementation)
+    void display() { System.out.println("This is a shape"); }
+}
+
+//Interfaces (interface keyword)
+interface Drawable {
+    void draw();
+}
+class Circle implements Drawable {
+    @Override
+    public void draw() { System.out.println("Drawing a circle"); }
+}
+
+abstract class Vehicle {
+    abstract void start();  // Must be implemented by subclasses
+}
+
+class Car extends Vehicle {
+    @Override
+    void start() {
+        System.out.println("Car starts with a key");
+    }
+}
 
 
 public class Day_01 {
@@ -58,5 +98,16 @@ public class Day_01 {
         Dog dog = new Dog();
         dog.eat();  // Output: "Dog is eating bones" (overridden method)
         dog.bark(); // Output: "Woof!" (Dog's own method)
+
+        // Usage
+        Animal1 animal = new Animal1();
+        Animal1 cat = new Cat();
+
+        animal.sound();  // Output: "Some sound"
+        cat.sound();     // Output: "Meow" (Runtime polymorphism)
+
+        // Usage
+        Vehicle car = new Car();
+        car.start();  // Output: "Car starts with a key"
     }
 }
