@@ -87,6 +87,80 @@ class Car extends Vehicle {
 }
 
 
+/**
+ * This class demonstrates all Java access modifiers in one place.
+ * Shows public, protected, default (package-private), and private access.
+ */
+class AccessModifiersDemo {
+    // ========== FIELD DECLARATIONS WITH DIFFERENT ACCESS LEVELS ==========
+    public int publicVar = 1;           // Accessible everywhere
+    protected int protectedVar = 2;     // Accessible in package + subclasses
+    int defaultVar = 3;                 // Accessible only in package (no modifier)
+    private int privateVar = 4;         // Accessible only in this class
+
+    // ========== METHOD DECLARATIONS WITH DIFFERENT ACCESS LEVELS ==========
+    public void publicMethod() {
+        System.out.println("Public method - accessible from anywhere");
+        System.out.println("Accessing privateVar from within class: " + privateVar);
+    }
+
+    protected void protectedMethod() {
+        System.out.println("Protected method - accessible in package and subclasses");
+    }
+
+    void defaultMethod() {
+        System.out.println("Default method - accessible only in package");
+    }
+
+    private void privateMethod() {
+        System.out.println("Private method - accessible only in this class");
+    }
+
+    // ========== DEMONSTRATING ACCESS WITHIN THE SAME CLASS ==========
+    public void demonstrateAccess() {
+        // All access levels are accessible within the same class
+        System.out.println("\n=== Access from within the same class ===");
+        System.out.println("publicVar: " + publicVar);
+        System.out.println("protectedVar: " + protectedVar);
+        System.out.println("defaultVar: " + defaultVar);
+        System.out.println("privateVar: " + privateVar);
+
+        publicMethod();
+        protectedMethod();
+        defaultMethod();
+        privateMethod();
+    }
+
+    // ========== INNER CLASS TO DEMONSTRATE PROTECTED ACCESS ==========
+    protected class InnerProtectedClass {
+        public void showAccess() {
+            System.out.println("\n=== Access from inner protected class ===");
+            System.out.println("Can access protectedVar: " + protectedVar);
+        }
+    }
+
+    public static void main(String[] args) {
+        AccessModifiersDemo demo = new AccessModifiersDemo();
+
+        // 1. Demonstrate all access within the same class
+        demo.demonstrateAccess();
+
+        // 2. Demonstrate protected access via inner class
+        InnerProtectedClass inner = demo.new InnerProtectedClass();
+        inner.showAccess();
+
+        // 3. Attempt to access private members (would cause compilation error)
+        // System.out.println(demo.privateVar);       // Error
+        // demo.privateMethod();                     // Error
+
+        System.out.println("\n=== Access Summary ===");
+        System.out.println("publicVar is accessible everywhere");
+        System.out.println("protectedVar is accessible in package and subclasses");
+        System.out.println("defaultVar is accessible only in package");
+        System.out.println("privateVar is accessible only in this class");
+    }
+}
+
 public class Day_01 {
     public static void main(String[] args) {
         // Usage of bank account class
