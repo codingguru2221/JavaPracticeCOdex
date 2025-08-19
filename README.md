@@ -19,15 +19,15 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 ## 📌 Daily Breakdown
 
 ### **Week 1 – Core Java Fundamentals**
-| Day | Topics | Practice |
-|-----|--------|----------|
-| 1 | OOP principles, Access Modifiers | Implement a simple `Employee` class with encapsulation & inheritance |
-| 2 | `static`, `final`, `this`, `super`, method overloading/overriding | Create a parent-child class demo |
-| 3 | Interfaces, Abstract classes, Functional interfaces (Java 8) | Implement a lambda expression for sorting |
-| 4 | Strings & StringBuilder vs StringBuffer | Reverse words in a sentence |
-| 5 | Arrays (1D, 2D) and Utility methods | Rotate an array by K steps |
-| 6 | Exception Handling, Custom Exceptions | Create custom exception for invalid age |
-| 7 | Java Collections Intro (`List`, `Set`, `Map`) | Count word frequency using `HashMap` |
+| Day | Topics | Practice | Code |
+|-----|--------|----------|------|
+| 1 | OOP principles, Access Modifiers | Implement a simple `Employee` class with encapsulation & inheritance | [Day_01.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_01.java) |
+| 2 | `static`, `final`, `this`, `super`, method overloading/overriding | Create a parent-child class demo | [Day_02.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_02.java) |
+| 3 | Interfaces, Abstract classes, Functional interfaces (Java 8) | Implement a lambda expression for sorting | [Day_03.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_03.java) |
+| 4 | Strings & StringBuilder vs StringBuffer | Reverse words in a sentence | [Day_04.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_04.java) |
+| 5 | Arrays (1D, 2D) and Utility methods | Rotate an array by K steps | [Day_05.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_05.java) |
+| 6 | Exception Handling, Custom Exceptions | Create custom exception for invalid age | [Day_06.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_06.java) |
+| 7 | Java Collections Intro (`List`, `Set`, `Map`) | Count word frequency using `HashMap` | [Day_07.java](https://github.com/codingguru2221/JavaPracticeCodex/blob/main/src/com/codex/Day_07.java) |
 
 ---
 
@@ -101,4 +101,3 @@ By the end of these 30 days, you will:
 ---
 
 **Happy Coding! 🚀**
-
