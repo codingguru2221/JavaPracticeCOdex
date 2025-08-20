@@ -29,6 +29,7 @@ class Day_01{
     }
 }
 
+
 public class Pattern_01 {
     public static void main(String[] args) {
         Day_01 D1 = new Day_01();
