@@ -2,9 +2,9 @@ package com.codex;
 
 import java.util.*;
 
-public class Day_07 {
-    public static void main(String[] args) {
-        // ---------- LIST ----------
+// ---------- LIST ----------
+class ListExample {
+    public void runDemo() {
         System.out.println("===== LIST =====");
 
         // ArrayList
@@ -27,8 +27,12 @@ public class Day_07 {
         vector.add("Green");
         vector.add("Red"); // duplicate allowed
         System.out.println("Vector: " + vector);
+    }
+}
 
-        // ---------- SET ----------
+// ---------- SET ----------
+class SetExample {
+    public void runDemo() {
         System.out.println("\n===== SET =====");
 
         // HashSet (unordered, no duplicates)
@@ -52,8 +56,12 @@ public class Day_07 {
         treeSet.add("Mango");
         treeSet.add("Apple"); // ignored
         System.out.println("TreeSet (Sorted): " + treeSet);
+    }
+}
 
-        // ---------- MAP ----------
+// ---------- MAP ----------
+class MapExample {
+    public void runDemo() {
         System.out.println("\n===== MAP =====");
 
         // HashMap (unordered)
@@ -76,5 +84,14 @@ public class Day_07 {
         treeMap.put(100, "Apple");
         treeMap.put(200, "Banana");
         System.out.println("TreeMap (Sorted by Keys): " + treeMap);
+    }
+}
+
+// ---------- DRIVER ----------
+public class Day_07 {
+    public static void main(String[] args) {
+        new ListExample().runDemo();
+        new SetExample().runDemo();
+        new MapExample().runDemo();
     }
 }
