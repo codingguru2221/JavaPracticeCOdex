@@ -3,7 +3,6 @@
 Welcome to the **30 Days Java Interview Preparation Challenge**!  
 This plan is designed to take you from **Java basics refresher** to **interview-ready** in one month, combining **Core Java**, **Data Structures & Algorithms (DSA)**, **problem solving**, and **mock interview practice**.
 
----
 
 ## 📅 Challenge Structure
 
@@ -14,7 +13,6 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 3. **Week 3 – Data Structures & Algorithms**
 4. **Week 4 – Advanced Java & Mock Interviews**
 
----
 
 ## 📌 Daily Breakdown
 
@@ -29,7 +27,7 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 | 6 | Exception Handling, Custom Exceptions | Create custom exception for invalid age | [Day_06.java](Code/CodePractice/src/com/codex/Day_06.java) |
 | 7 | Java Collections Intro (`List`, `Set`, `Map`) | Count word frequency using `HashMap` | [Day_07.java](Code/CodePractice/src/com/codex/Day_07.java) |
 
----
+
 
 ### **Week 2 – Collections & Java 8+ Features**
 | Day | Topics | Practice | Code |
@@ -42,7 +40,7 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 | 13 | Optional class, Method references | Avoid `NullPointerException` using `Optional` | [Day_13.java](Code/CodePractice/src/com/codex/Day_13.java) |
 | 14 | Comparable vs Comparator | Sort custom objects by multiple fields | [Day_14.java](Code/CodePractice/src/com/codex/Day_14.java) |
 
----
+
 
 ### **Week 3 – Data Structures & Algorithms**
 | Day | Topics | Practice |
@@ -55,7 +53,7 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 | 20 | Trees (BST) | Inorder, Preorder, Postorder traversal |
 | 21 | Graphs (BFS, DFS) | Count connected components |
 
----
+
 
 ### **Week 4 – Advanced Java & Mock Interviews**
 | Day | Topics | Practice |
@@ -70,7 +68,6 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 | 29 | Full mock interview (Core Java + DSA) | Solve 3 coding + 5 theory Qs |
 | 30 | Review & Weak areas | Revise mistakes & reattempt hard problems |
 
----
 
 ## 🛠 How to Use This Plan
 - **Daily Practice:** Spend 1-2 hours revising the topic and 1-2 hours coding problems.
@@ -79,7 +76,6 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 - **Revision:** Keep a running note of mistakes and patterns.
 - **Mock Interviews:** Simulate real interview scenarios in Week 4.
 
----
 
 ## 📚 Recommended Resources
 - **Books:**
@@ -90,7 +86,6 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
   - [HackerRank](https://www.hackerrank.com/)
   - [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
----
 
 ## ✅ Goal
 By the end of these 30 days, you will:
@@ -98,6 +93,5 @@ By the end of these 30 days, you will:
 - Be **comfortable with DSA in Java**
 - Be **ready for technical interviews** at top companies
 
----
 
 **Happy Coding! 🚀**
