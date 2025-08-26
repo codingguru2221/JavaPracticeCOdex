@@ -32,15 +32,15 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 ---
 
 ### **Week 2 – Collections & Java 8+ Features**
-| Day | Topics | Practice |
-|-----|--------|----------|
-| 8 | `ArrayList` vs `LinkedList` | Implement custom `LinkedList` |
-| 9 | `HashSet`, `TreeSet`, `LinkedHashSet` | Remove duplicates from a list |
-| 10 | `HashMap`, `TreeMap`, `LinkedHashMap` | Sort a `Map` by values |
-| 11 | Iterators, `forEach`, Streams | Filter even numbers from a list |
-| 12 | Stream API – map, filter, reduce | Find sum of salaries using `reduce` |
-| 13 | Optional class, Method references | Avoid `NullPointerException` using `Optional` |
-| 14 | Comparable vs Comparator | Sort custom objects by multiple fields |
+| Day | Topics | Practice | Code |
+|-----|--------|----------|------|
+| 8 | `ArrayList` vs `LinkedList` | Implement custom `LinkedList` | [Day_08.java](Code/CodePractice/src/com/codex/Day_08.java) |
+| 9 | `HashSet`, `TreeSet`, `LinkedHashSet` | Remove duplicates from a list | [Day_09.java](Code/CodePractice/src/com/codex/Day_09.java) |
+| 10 | `HashMap`, `TreeMap`, `LinkedHashMap` | Sort a `Map` by values | [Day_10.java](Code/CodePractice/src/com/codex/Day_10.java) |
+| 11 | Iterators, `forEach`, Streams | Filter even numbers from a list | [Day_11.java](Code/CodePractice/src/com/codex/Day_11.java) |
+| 12 | Stream API – map, filter, reduce | Find sum of salaries using `reduce` | [Day_12.java](Code/CodePractice/src/com/codex/Day_12.java) |
+| 13 | Optional class, Method references | Avoid `NullPointerException` using `Optional` | [Day_13.java](Code/CodePractice/src/com/codex/Day_13.java) |
+| 14 | Comparable vs Comparator | Sort custom objects by multiple fields | [Day_14.java](Code/CodePractice/src/com/codex/Day_14.java) |
 
 ---
 
