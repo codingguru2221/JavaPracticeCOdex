@@ -41,17 +41,17 @@ The challenge is divided into **4 weeks**, each focusing on a key area:
 | 14 | Comparable vs Comparator | Sort custom objects by multiple fields | [Day_14.java](Code/CodePractice/src/com/codex/Day_14.java) |
 
 
-
 ### **Week 3 – Data Structures & Algorithms**
-| Day | Topics | Practice |
-|-----|--------|----------|
-| 15 | Recursion basics | Factorial, Fibonacci |
-| 16 | Sorting algorithms | QuickSort, MergeSort |
-| 17 | Searching algorithms | Binary Search variations |
-| 18 | Linked List | Reverse, Detect cycle |
-| 19 | Stack & Queue | Balanced parentheses checker |
-| 20 | Trees (BST) | Inorder, Preorder, Postorder traversal |
-| 21 | Graphs (BFS, DFS) | Count connected components |
+| Day | Topics | Practice | Code |
+|-----|--------|----------|------|
+| 15 | Recursion basics | Factorial, Fibonacci | [Day_15.java](Code/CodePractice/src/com/codex/Day_15.java) |
+| 16 | Sorting algorithms | QuickSort, MergeSort | [Day_16.java](Code/CodePractice/src/com/codex/Day_16.java) |
+| 17 | Searching algorithms | Binary Search variations | [Day_17.java](Code/CodePractice/src/com/codex/Day_17.java) |
+| 18 | Linked List | Reverse, Detect cycle | [Day_18.java](Code/CodePractice/src/com/codex/Day_18.java) |
+| 19 | Stack & Queue | Balanced parentheses checker | [Day_19.java](Code/CodePractice/src/com/codex/Day_19.java) |
+| 20 | Trees (BST) | Inorder, Preorder, Postorder traversal | [Day_20.java](Code/CodePractice/src/com/codex/Day_20.java) |
+| 21 | Graphs (BFS, DFS) | Count connected components | [Day_21.java](Code/CodePractice/src/com/codex/Day_21.java) |
+
 
 
 
